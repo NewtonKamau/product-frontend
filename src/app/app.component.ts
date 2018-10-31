@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgSwitch } from '@angular/common';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
