@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddProductComponent implements OnInit {
 
+  newProduct = '';
+  onAddProduct() {
+    this.newProduct = 'The User\'s post';
+  }
+  
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+

@@ -1,3 +1,14 @@
-<p>
-  add-product works!
-</p>
+<mat-form-field>
+<input MatInput type="text" name="product_name" placeholder="product_name" >
+<br>
+<input MatInput type="text" name="product_category" placeholder="product_category"  >
+</mat-form-field>
+<br>
+
+<button
+mat-raised-button
+color="accent"
+(click)="onAddProduct()">Save Product</button>
+
+
+<p>{{ newProduct }}</p>
