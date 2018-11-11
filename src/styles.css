@@ -1,4 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f8f8f8;
+}
+.with100 {
+  width: 100%;
+}
+.width45 {
+  width: 45%;
+}
+#heading-one {
+  font-size: 1.5em;
+  color: #f8f8f8;
+  margin-left: 10px;
+}
+#sidenav {
+  width: 250px;
+  padding: 10px;
+  background: #2B353B;
+}
+#sidenav-content {
+  height: 456;
+  padding: 10px;
+  height: 456px;
+  background: #fff;
+}
+.nav-list {
+  color: #f8f8f8!important;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  border-bottom: 1px solid #fff;
+}
+.nav-list:hover {
+  color: #222!important;
+  background: #f8f8f8;
+}
